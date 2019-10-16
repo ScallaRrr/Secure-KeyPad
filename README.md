@@ -56,5 +56,8 @@ ex) <%@ page import="KeyPad_Crypto.*"%>
     String decrypt = KeyPad_E2ECrypto.KeyPad_decrypt_block((PrivateKey)request.getSession().getAttribute("__rsaPrivateKey__"), encrypt, License);
 
 5) 복호화는 decrypt값을 그대로 받아 사용합니다.
-   
    decrypt값이 String이므로, 바로 사용하실 수 있습니다.
+   
+** 라이선스 기능이 있으므로, 사용시 라이선스 발급을 받아야합니다.
+   라이선스는 메일로 요청주시면 발급하여 드립니다.
+   tjsghman@gmail.com
