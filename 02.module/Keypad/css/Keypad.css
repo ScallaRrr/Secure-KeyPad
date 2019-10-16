@@ -1,0 +1,13 @@
+/* Secure_KeyPad Design 
+ * Copyright(C)2018 Lee Sun Ho
+ * 무단 배포 및 수정을 금합니다.
+ */
+
+.keypad {position: absolute; width: 100%; bottom: 0; left: 0; text-align: center; vertical-align: middle; border-collapse: collapse; border-spacing: 0;}
+.keypad table{position: absolute; bottom: 0; width:100%;text-align: center; vertical-align: middle; border-collapse: collapse; border-spacing: 0; background: #fff;}
+.keypad table > tbody> tr > td {border: 1px solid #aaa; height: 65px;}
+.keypad table button {width: 100%; height: 100%;margin: 0; padding: 0;border: none; outline: none;font-size: 20px;font-weight: lighter;}
+.keypad table button.text-sm {font-size: 15px;}
+.keypad table button:active {background: #efefef;}
+.keypad_div1 {background-color: rgb(185, 185, 185);}
+.keypad_div2 button {background-color: rgb(185, 185, 185);}
