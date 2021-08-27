@@ -23,12 +23,6 @@ Made By ScallaRrr
     - License
        
     - Encrypt Algorithm  : RSA with Digital Envelope
-    - Library :   
-    - Gateway        : API Gateway 서버
-    - AuthService    : 인증, 사용자, 권한 관리 서버 (Spring Oauth)
-    - GatewayLog     : 로그, 통계 관리 서버 (구성중)
-    - GatewayConfig  : Spring-Cloud-Config-Bus Server
-    - ETC            : Redis, RabbitMQ, MySQL 
      
 ※ 개발 환경
 
